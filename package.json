@@ -1,8 +1,0 @@
-{
-  "name": "image-card-maker",
-  "version": "1.0.0",
-  "type": "module",
-  "dependencies": {
-    "@cloudflare/workers-types": "^4.0.0"
-  }
-}
