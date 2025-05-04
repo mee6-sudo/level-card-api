@@ -109,7 +109,7 @@ export default {
       `;
 
       // Call Popcat.xyz screenshot API
-      const popcatResponse = await fetch('https://api.popcat.xyz/screenshot', {
+      const popcatResponse = await fetch('https://api.popcat.xyz/v1/screenshot', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({
